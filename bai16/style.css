@@ -1,0 +1,24 @@
+p {
+  color: blue;
+  font-size: 20px;
+}
+
+h1 {
+  color: red;
+}
+
+#line_3 {
+  color: green;
+}
+
+.demo {
+  color: orange;
+  font-size: 24px;
+}
+.demo-2 {
+  font-size: 40px;
+}
+
+.item_ul_1{
+    list-style: none;
+}

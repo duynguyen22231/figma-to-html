@@ -1,0 +1,93 @@
+thứ tự ưu tiên selector(css):
+Mức độ ưu tiên (mạnh -> yếu) áp dụng khi có nhiều thuộc
+tính chồng chéo nhau cùng tác động lên một phần tử
+    1. !important
+        vd:
+            *{
+                color: red !important;
+            }
+    2. Inline style (viết trên code HTML)
+        vd:
+            trong html:
+            <body>
+                <h1 style="color:blue"></h1>
+            </body>
+    3. ID (#) selector
+        vd:
+            #line_1{
+                color: yellow;
+            }
+    4. Class (.) hoặc pseudo-class (:) selector
+        vd:
+            .top{
+                color: green;
+            }
+    5. Element selector (h, p, li, div,...)
+        vd:
+            h1{
+                color: black;
+            }
+    6. Universal selector (*): Bộ chọn chung
+        vd:
+            *{
+                color: red;
+            }
+
+box-model:
+border: viền
+các thuộc tính cho viền:
+dashed: đường nét đứt
+dotted: viền là các chấm dot
+double: viền 2 đường song song liền kề nhau
+groove, ridge, inset, outset: viền 3D
+
+rem: tính toán pixel -> rem
+thông thường 1rem = 16px
+cần quy đổi để 1rem = 10px
+-> 10/16*100 = 62.5%
+-> cần giảm font size của html xuống 62.5%
+10/16 = 0.652
+
+text-align: căn text
+text-align: justify: căn đều 2 bên
+text-align: left: mặc định
+text-align: right: căn phải
+text-align: center: căn giữa
+không sử dụng được với thẻ có thuộc tính display: inline
+
+text-decoration: none: bỏ gạch chân
+text-decoration: underline: thêm gạch chân
+text-decoration: line-through: thêm gạch ngang
+text-decoration: overline: gạch trên đầu
+*: có thể định dạng kiểu của dấu gạch, màu sắc, kích thước
+text-decoration: underline dotted blue 5px
+
+text-indent: thụt lề
+
+text-transform: capitalize: Viết hoa chữ cái đầu
+text-transform: lowercase: viết thường toàn Bộ
+text-transform: uppercase: viết hoa toàn bộ
+
+white-space: quy định về khoảng trắng khi code
+ngoại trừ thẻ <pre></pre> giữ nguyên định dạng code
+white-space: normal: mặc định
+white-space: nowrap: không xuống dòng kể cả sát lề
+white-space: pre: giữ nguyên định dạng code, như thẻ pre
+white-space: pre-line: giữ định dạng theo line(enter), không xuống dòng khi chưa hết câu
+white-space: pre-wrap: giữ định dạng theo line(enter), nhưng vẫn xuống dòng
+word-break: break-all: bẻ từ khi cố tình nhập vỡ text
+
+overflow: visible: mặc định (hiển thị nội dung kể cả vượt box)
+overflow: hidden: ẩn nội dung khi vượt quá box chứa
+overflow: scroll: tạo thanh cuộn
+overflow: auto: + nếu nội dung ngắn -> không có scroll cuộn
+                + nếu nội dung vượt box chứa -> sinh ra scroll
+
+ /* BG không lặp lại */
+  background-repeat: no-repeat;
+  /* BG lặp lai liên tục trên trục x */
+  background-repeat: repeat-x;
+  /* BG lặp lai liên tục trên trục y */
+  background-repeat: repeat-y;
+  /* BG lặp lai liên tục trên cả 2 trục */
+  background-repeat: repeat;

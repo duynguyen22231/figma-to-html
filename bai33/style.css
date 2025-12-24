@@ -1,0 +1,29 @@
+body {
+  background-color: aqua;
+}
+strong {
+  /* padding: 30px; */
+  background-color: blue;
+  /* margin: 30px; */
+  width: 200px;
+  height: 100px;
+  /* thêm dòng này nếu muốn sửa thẻ strong để áp dụng đc padding, margin, width, height  */
+  display: inline-block;
+}
+
+a {
+  margin-top: 100px;
+  text-decoration: none;
+  background-color: orchid;
+  border-radius: 999px;
+  color: black;
+  display: inline-block;
+  width: 100px;
+  padding: 8px 16px;
+  text-align: center;
+}
+/* thay đổi màu khi di chuột tới */
+a:hover {
+  background-color: black;
+  color: palegreen;
+}

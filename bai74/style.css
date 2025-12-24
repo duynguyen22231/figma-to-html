@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+}
+/*  
+    1. nếu max-width < flex-basis -> max-width 
+    2. nếu max-width > flex-basis -> flex-basis 
+ */
+.box {
+  /* flex-basis: 200px; */
+  /* max-width: 100px; */
+    /* flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 100px; */
+    flex: 0 1 100px;    
+}
+.box1 {
+  background-color: aqua;
+  order: 2;
+}
+
+.box2 {
+  background-color: red;
+  order: 1;
+}
+
+.box3 {
+  background-color: blue;
+  order: 2;
+}
+
+.box4 {
+  background-color: green;
+}

@@ -1,0 +1,22 @@
+.box {
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  background-color: aqua;
+  /* flex-direction: row; */
+  /* muốn dồn về phía sát bên trái */
+  /* flex-direction: row-reverse; */
+  /* justify-content: flex-end; */
+  /* ---------------- */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: flex-end; */
+  /* align-items: flex-start; */
+
+  /* flex-wrap + flex-direction = flex-flow */
+  flex-flow: row wrap;
+}

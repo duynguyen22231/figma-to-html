@@ -1,0 +1,39 @@
+:root{
+    --box_height: 100px;
+    --box_color: green;
+
+}
+
+.box1{
+    height: var(--box_height);
+    background-color: var(--box_color);
+}
+
+.box2{
+    height: var(--box_height);
+    background-color: var(--box_color);
+}
+
+.box3{
+    height: var(--box_height);
+    background-color: var(--box_color);
+}
+
+.detail{
+    --p_font_size: 30px;
+    /* font-size: 30px; */
+    color: blue;
+    /* font-size: var(--p_font_size); */
+}
+
+.detail span{
+    font-size: var(--p_font_size);
+}
+
+.content{
+    --bg_box: red;
+}
+.box4{
+    height: 100px;
+    background-color: var(--bg_box, yellow);
+}

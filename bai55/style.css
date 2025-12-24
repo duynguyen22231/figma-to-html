@@ -1,0 +1,33 @@
+/* first-line không áp dụng thẻ inline */
+p::first-line {
+  color: blue;
+}
+span {
+  display: inline-block;
+}
+span::first-line {
+  color: red;
+  background-color: antiquewhite;
+}
+
+p::first-letter {
+  font-size: 40px;
+  color: green;
+}
+
+*::selection{
+    background-color: chartreuse; 
+    color: brown;
+}
+
+li::marker{
+    color: pink;
+    font-size: 20px;
+}
+
+.box::before{
+    content: "Hello ";
+}
+.box::after{
+    content: " finish.";
+}

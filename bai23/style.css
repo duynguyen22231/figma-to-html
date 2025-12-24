@@ -1,0 +1,7 @@
+/* .top:not(p){
+    background-color: yellow;
+} */
+/* tác dụng cho thẻ lặp lại từ lần 2 */
+.top:not(:first-of-type) {
+  background-color: yellow;
+}

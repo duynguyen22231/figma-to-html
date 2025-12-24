@@ -1,0 +1,11 @@
+p {
+  /* letter-spacing: -3px; */
+  /* word-spacing: 75px; */
+  /* text-align: center; */
+}
+
+.homework {
+  /* không sử dụng được với thẻ có thuộc tính display: inline */
+  text-align: center;
+  display: block;
+}

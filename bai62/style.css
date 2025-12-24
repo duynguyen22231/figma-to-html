@@ -1,0 +1,26 @@
+.box{
+    /* căn text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background: red;
+  
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}

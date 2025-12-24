@@ -1,0 +1,27 @@
+/* /* a[href] {
+  color: red;
+} */
+
+/* [target="_self"] {
+  color: blue;
+} */ 
+/* nhận các thẻ có đúng từ tuhhoc.cc */
+/* [title~="tuhoc.cc"] {
+  color: red;
+} */
+/* nhận các thẻ có chứa từ tuhhoc.cc */
+/* [title*="tuhoc.cc"] {
+  color: red;
+} */
+/* chọn thẻ bắt đầu từ pic, pic-123 */
+/* [title|="pic"] {
+  color: red;
+} */
+/* có pic đứng đầu trong chuỗi là được */
+/* [title^="pic"] {
+  color: red;
+} */
+/* có kí tự đứng sau cùng trong chuỗi  */
+/* [title$="c"] {
+  color: pink;
+} */

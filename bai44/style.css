@@ -1,0 +1,13 @@
+.box {
+  height: 100vh;
+  background-image: url(./bg/lacay.png) ,url(./bg/anhnen.jpg);
+  /* background-image: none; */
+  /* BG không lặp lại */
+  /* background-repeat: no-repeat; */
+  /* BG lặp lai liên tục trên trục x */
+  /* background-repeat: repeat-x; */
+  /* BG lặp lai liên tục trên trục y */
+  /* background-repeat: repeat-y; */
+  /* BG lặp lai liên tục trên cả 2 trục */
+  /* background-repeat: repeat; */
+}

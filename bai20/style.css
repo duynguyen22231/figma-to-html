@@ -1,0 +1,36 @@
+/* tác dụng khi di chuột qua */
+/* p:hover {
+  color: aqua;
+  font-size: 30px;
+} */
+/* #line2:hover {
+  color: red;
+  font-size: 25px;
+} */
+/* .di_chuot:hover {
+  color: green;
+  font-size: 30px;
+} */
+/* tác dụng khi giữ chuột */
+/* .di_chuot:active {
+  color: red;
+  font-size: 25px;
+} */
+/* tác dụng lên selector khi chưa click vào truy cập */
+/* .click_me:link {
+ color: chocolate; 
+} */
+/* tác dụng khi đã truy cập */
+/* .click_me:visited{
+    color: purple;
+} */
+/* khi không ghi gì thì nó sẽ có 1 ô màu vàng */
+/* .div_elm:empty{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+} */
+/* h2:target {
+  color: orange;
+} */
+

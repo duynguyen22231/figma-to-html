@@ -1,0 +1,93 @@
+/* h2 {
+  font-size: 30px;
+  width: 450px;
+  height: 80px;
+  background-color: lightcoral;
+}
+
+p {
+  width: 50%;   
+  background-color: blue;
+} */
+/* body{
+    background-color: lightgray;
+ }
+.box {
+  background-color: blue;
+  width: 60%;
+}
+.box_child{
+    background-color: lightcoral;
+    width: 50%;
+} */
+/* .parent {
+  font-size: 60px;
+}
+.line1 {
+  font-size: 30%;
+} */
+
+/* .parent {
+  width: 80vw;
+  height: 80vh;
+  background-color: yellow;
+}
+.child{
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+} */
+
+/* 1. thẻ cha và con không có font size 
+-> lấy theo font size root (HTML) = 16px */
+/* .child { */
+/* 3.thẻ cha và con đều có font size
+  -> ưu tiên font size hiện tại của chính nó */
+/* font-size: 30px; */
+/* width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+/* 2. phụ thuộc vào thẻ cha có font size 
+-> thẻ con sẽ nhận font size thẻ cha */
+/* .parent { */
+/* font-size: 20px; */
+/* 4. nếu font cha là đơn vị tương đối */
+/* font-size: 2em;
+} */
+
+/* html {
+  font-size: 40px;
+}
+.parent {
+  font-size: 10px;
+} */
+
+/* .child { */
+/* font-size: 2em;
+  width: 2em;
+  height: 2em; */
+/* font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: violet;
+  border: 0.2rem solid red;
+} */
+
+/* tính pixel -> rem */
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 4.4rem;
+}
+
+p {
+  font-size: 2.53rem;
+}
+
+.box {
+  width: 22rem;
+  height: 18rem;
+  background-color: lightblue;
+}

@@ -1,0 +1,68 @@
+/* div { */
+/* width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red; */
+/* padding: 20px; */
+/* viền */
+/* border: 10px solid blue; */
+
+/* border-width: 10px 20px 30px 40px;
+  border-style: solid double dotted dashed;
+  border-color: pink green violet orange; */
+
+/* border-radius: 10px; */
+/* ghi tường minh */
+/* bo góc */
+/* border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px; */
+/* } */
+
+/* .box { */
+/* width: 210px;
+  height: 200px;
+  background-color: red;
+  padding: 10px 20px 30px 40px;
+  border: 10px solid blue;
+  margin: 15px; */
+/* } */
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: green;
+}
+.box1 {
+  border: 10px solid red;
+}
+.box2 {
+  border: 20px solid black;
+  margin-left: 160px;
+}
+.box3 {
+  border: 30px solid yellow;
+  margin-left: 340px;
+} */
+body{
+  background-color: #ddd;
+}
+
+.container h1{
+  font-size: 40px;
+}
+.container p{
+  font-size: 20px;
+  line-height: 1.4;
+}
+.container img{
+  max-width: 500px;
+}
+.container{
+  margin: 0 auto;
+  width: 700px;
+  background-color: pink;
+  text-align: center;
+}

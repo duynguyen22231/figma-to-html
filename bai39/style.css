@@ -1,0 +1,9 @@
+strong {
+  /* text-decoration: underline; */
+  text-decoration: underline dashed blue 2px;
+}
+
+.line {
+  text-indent: 40px;
+  text-transform: uppercase;
+}

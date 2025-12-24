@@ -1,0 +1,18 @@
+h1 {
+  width: 200px;
+  /* cho chữ hiển thị trên cùng 1 dòng */
+  white-space: nowrap;
+  background-color: pink;
+  /* ẩn nội dung thừa */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* làm dấu ... cho dòng 2,3,... */
+h2 {
+  background-color: aquamarine;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* số dòng muốn hiển thị */
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

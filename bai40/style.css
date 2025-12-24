@@ -1,0 +1,41 @@
+/* h1 { */
+/* margin: 40px; */
+/* text shadow: ngang, dọc blur (độ mờ), màu */
+/* text-shadow: 0px 20px 0px rgba(255, 0, 0, 0.176); */
+/* } */
+
+/* .box{
+    width: 300px;
+    height: 200px;
+    background-color: orange; */
+/* overflow : hidden; */
+/* overflow : scroll; */
+/* overflow : auto; */
+/* } */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

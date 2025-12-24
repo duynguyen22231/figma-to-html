@@ -1,0 +1,16 @@
+.pic1 {
+  width: 200px;
+  float: left;
+}
+
+.pic2 {
+  width: 200px;
+  float: right;
+}
+
+/* clear: left: xoá giá trị float bên trái
+   clear: right: xoá giá trị float bên phải
+   clear: both: clear cả 2 hướng */
+   p:last-child {
+    clear: both;
+   }

@@ -1,0 +1,16 @@
+.container{
+    height: 150px;
+    display: flex;
+    background-color: aqua;
+}
+
+.box{
+    background-color: bisque;
+    border: 1px solid black;
+    width: 30%;
+    /* flex-shrink: 0; */
+}
+
+.box1{
+    flex-shrink: 0;
+}

@@ -1,0 +1,41 @@
+/* chọn thẻ con đầu tiên để thay đổi */
+/* p:first-child {
+  color: red;
+  font-size: 30px;
+} */
+/* chọn thẻ con cuối cùng */
+/* p:last-child {
+  color: blue;
+  font-size: 35px;
+} */
+
+/* thẻ con thứ n từ trên xuống*/
+/* old: nhảy theo n số lẻ,
+   even: nhảy theo n số chẵn,
+   2n+1: nhảy theo step mong muốn */
+/* p:nth-child(2) {
+  color: green;
+  font-size: 25px;
+} */
+/* p:nth-child(even) {
+  color: orange;
+} */
+/* p:nth-child(odd) {
+  color: hotpink;
+} */
+/* n = 0 -> 1
+   n = 1 -> 4
+   n = 2 -> 7 */
+/* p:nth-child(3n + 1) {
+  color: purple;
+} */
+/* chọn thẻ con thứ n từ dưới lên */
+p:nth-last-child(2) {
+  color: brown;
+  font-size: 40px;
+}
+/* chọn thẻ con duy nhất */
+ p:only-child {
+  color: teal;
+  font-size: 28px;
+} 

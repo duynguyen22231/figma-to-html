@@ -1,0 +1,48 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+}
+
+.box1 {
+  margin-bottom: 50px;
+}
+
+.box2 {
+  margin-top: 30px;
+} */
+
+/* margin collapse không bị theo chiều ngang*/
+
+/* .item{
+    background-color: yellow;
+    border: 2px solid red;
+} 
+
+.item1{
+    margin-right: 10px;
+}
+.item2{
+    margin-left: 20px;
+} */
+
+
+/* quan hệ cha con */
+
+.box_cha{
+    background-color: pink;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_con{
+    background-color: blue;
+    width: 50%;
+    margin-top: 70px;
+}
